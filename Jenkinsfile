@@ -23,5 +23,4 @@ node {
     stage "Deploy"
 
         sh "kubectl apply -f applications/${appName}/k8s/*.yaml"
-
 }
